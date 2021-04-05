@@ -58,23 +58,32 @@
 
         </div>
     </nav>
-
-    <div class="container">
-
-        <div class="row">
+    
+      <div class="row">
             <!--//row para botones centrales-->
-            <div class="col d-flex justify-content-center mt-2">
-                <i class="fa fa-square fa-2x p-1 "></i>
-                <i class="fa fa-th fa-2x p-1"></i>
+            <div class="col d-flex justify-content-center mt-2 botonesApps">
+                <button type="button" class="btn boton">
+                    <i class="fa fa-square fa-2x p-1" data-toggle="collapse" href="#firstPage" role="button" aria-expanded="false" aria-controls="firstPage"></i> 
+                </button>
+                <!--clases para hacer visible el secondPage o firstPage al darle click a los iconos de apps o "expansion"  -->
+                
+                <button type="button" class="btn boton">
+                <i class="fa fa-th fa-2x p-1" data-toggle="collapse" href="#secondPage" role="button" aria-expanded="false" aria-controls="secondPage"></i>
+                </button>
             </div>
         </div>
+    
+    <div id="acordion">
+    
 
+
+    <div class="container collapse show" id="firstPage" data-parent="#acordion">
 
         <div class="row">
             <!--//row para imagines-->
             <div class="col-12 principal">
                 <div class="titulo">
-                    <h2>First photo</h2>
+                    <h2>First Game</h2>
                     <span class="leftDate">12/14</span>
                 </div>
                 <div class="imagen">
@@ -92,8 +101,8 @@
 
             <div class="col-12 principal">
                 <div class="titulo">
-                    <h2>First photo</h2>
-                    <span class="leftDate">12/14</span>
+                    <h2>Favorite Game</h2>
+                    <span class="leftDate">12/15</span>
                 </div>
                 <div class="imagen">
                     <img src="https://i.pinimg.com/originals/3c/47/40/3c47401e320d1d1a39d9b8b4da6b846c.jpg"></img>
@@ -109,8 +118,8 @@
             </div>
             <div class="col-12 principal">
                 <div class="titulo">
-                    <h2>First photo</h2>
-                    <span class="leftDate">12/14</span>
+                    <h2>Game of games</h2>
+                    <span class="leftDate">12/16</span>
                 </div>
                 <div class="imagen">
                     <img src="https://as.com/meristation/imagenes/2019/10/15/noticias/1571167092_623588_1571168372_noticia_normal.jpg"></img>
@@ -126,8 +135,8 @@
             </div>
             <div class="col-12 principal">
                 <div class="titulo">
-                    <h2>First photo</h2>
-                    <span class="leftDate">12/14</span>
+                    <h2>Any Game</h2>
+                    <span class="leftDate">12/17</span>
                 </div>
                 <div class="imagen">
                     <img src="https://www.tuexpertoapps.com/wp-content/uploads/2019/07/plants-vs-zombies-3.jpg"></img>
@@ -144,8 +153,8 @@
 
             <div class="col-12 principal mb-4">
                 <div class="titulo">
-                    <h2>First photo</h2>
-                    <span class="leftDate">12/14</span>
+                    <h2>The Game</h2>
+                    <span class="leftDate">12/18</span>
                 </div>
                 <div class="imagen">
                     <img src="https://ak.uecdn.es/p/110/sp/11000/thumbnail/entry_id/0_bdxj1n4l/version/100022/height/407"></img>
@@ -162,6 +171,44 @@
         </div>
 
     </div>
+    
+    <div class="container-fluid collapse" id="secondPage" data-parent="#acordion"> 
+        <div class="row justify-content-center">
+            <div class="col-4 contenedor-imagen">
+                <img src="https://jjgamemachine.com/upload/201804/1523327180.jpg">
+            </div>    
+            <div class="col-4 contenedor-imagen">
+                <img src="https://i.ebayimg.com/00/s/NTAwWDUwMA==/z/cmsAAOSwz2JbarSM/$_57.JPG">
+            </div>    
+            <div class="col-4 contenedor-imagen">    
+                <img src="https://cdn.vox-cdn.com/thumbor/XZNKJ_-GFW2kzt-S0jy4Mkt9cDQ=/0x18:400x285/1200x800/filters:focal(0x18:400x285)/cdn.vox-cdn.com/imported_assets/1062793/mckey2.png">
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-4 contenedor-imagen">
+                <img src="https://i.insider.com/560ebbe8dd0895325c8b4597?width=700">
+            </div>
+            <div class="col-4 contenedor-imagen">    
+                <img src="https://api.time.com/wp-content/uploads/2017/10/zen-playing-old-video-games.jpg">
+            </div>
+            <div class="col-4 contenedor-imagen">   
+                <img src="https://img.dtcn.com/image/themanual/snes-classic-2-1500x1000.jpg">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4 contenedor-imagen">
+                <img src="https://www.insidehook.com/wp-content/uploads/2020/04/vintage_video_games.jpg?fit=1200%2C800">
+            </div>
+            <div class="col-4 contenedor-imagen">    
+                <img src="https://i.pinimg.com/originals/33/47/cd/3347cd325eb8dbb3f96c61c91039b39a.jpg">
+            </div>
+            <div class="col-4 contenedor-imagen">
+                <img src="https://edm.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY2NTAzOTU5NzczNTg2Njc0/295415.jpg">
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

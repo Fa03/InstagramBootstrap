@@ -1,5 +1,5 @@
 body {
-    background: rgba(204, 196, 196, 0.863);
+    background: rgba(172, 165, 165, 0.863);
     margin: 0;
 }
 
@@ -11,13 +11,6 @@ header {
 header h1 {
     margin: 0;
     text-align: center;
-}
-
-.leftDate {
-    display: inline;
-    float: right;
-    padding: 15px;
-    color: grey;
 }
 
 .principal {
@@ -32,7 +25,7 @@ div.container {
 
 div.container img {
     width: 100%;
-}
+    } 
 
 div.container h2 {
     display: inline;
@@ -52,4 +45,25 @@ div.container p {
 
 .navbar-brand{
     font-family: 'Lily Script One', cursive;
+}
+
+.contenedor-imagen {
+    max-height: 200px; 
+    max-width: 350px;
+    overflow: hidden;
+    
+}
+
+.contenedor-imagen img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.boton:hover {
+    background-color: lightgray;
+}
+
+.boton:focus {
+    color: rgb(236, 231, 231);
 }
